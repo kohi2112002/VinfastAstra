@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1104458367969354}
+  m_IsPrefabParent: 1
+--- !u!1 &1104458367969354
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4702080127622560}
+  - component: {fileID: 114314830055142744}
+  - component: {fileID: 65883683719064076}
+  m_Layer: 10
+  m_Name: Score
+  m_TagString: Obstacle
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4702080127622560
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1104458367969354}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &65883683719064076
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1104458367969354}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.3, y: 0.3, z: 0.3}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &114314830055142744
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1104458367969354}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4502c31b8f23a0546b3de417cb86cb0a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  props:
+  - {fileID: 1995914995615236, guid: 1f0ea1a5f87b71046ba4fec5d3167547, type: 2}
+  - {fileID: 1160004563896380, guid: 85f48c4f9f8af2c47b9e7916080ad4c5, type: 2}
+  - {fileID: 1796296999731986, guid: c01df930424b4ea46ae42a05836a70f5, type: 2}
+  - {fileID: 1518160298887620, guid: 8c61661a46a6ae547bbfad209b96855f, type: 2}
+  - {fileID: 1421805857556408, guid: 6ef5af4cb3117f34f857e255d4b6eecd, type: 2}
+  - {fileID: 1378244916290232, guid: 2cdcd34c0df83b449b5908c25becf114, type: 2}
+  lifeTime: 9
+  audioSource: {fileID: 1651225585478630, guid: b2abdc4f0cda0674a909164098d48646,
+    type: 2}
